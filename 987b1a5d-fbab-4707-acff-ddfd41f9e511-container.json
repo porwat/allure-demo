@@ -1,0 +1,38 @@
+{
+  "uuid": "987b1a5d-fbab-4707-acff-ddfd41f9e511",
+  "start": 1682502818632,
+  "stop": 1682502818712,
+  "children": [
+    "f82da25c-3565-4eb4-a1db-4a502fe35eea",
+    "fc9e5cee-f4af-475c-94f2-5902ee7c9d2d",
+    "e3592f29-c828-4816-8d3d-3759c6663b27"
+  ],
+  "befores": [
+    {
+      "name": "Create temporary directory",
+      "status": "passed",
+      "start": 1682502818632,
+      "stop": 1682502818632
+    },
+    {
+      "name": "Create temporary files",
+      "status": "passed",
+      "start": 1682502818632,
+      "stop": 1682502818632
+    }
+  ],
+  "afters": [
+    {
+      "name": "Remove temporary files",
+      "status": "passed",
+      "start": 1682502818712,
+      "stop": 1682502818712
+    },
+    {
+      "name": "Remove temporary directory",
+      "status": "passed",
+      "start": 1682502818712,
+      "stop": 1682502818712
+    }
+  ]
+}
